@@ -1,4 +1,4 @@
-# `namedtuple`
+# namedtuple
 
 ## When to use `namedtuple`
 

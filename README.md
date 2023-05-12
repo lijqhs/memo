@@ -1,4 +1,4 @@
-# Memo for anything
+# Memos
 
-- [`itertools`](/python/itertools.md)
-- [`namedtuple`](/python/namedtuple.md)
+- [itertools](/python/itertools.md)
+- [namedtuple](/python/namedtuple.md)

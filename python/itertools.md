@@ -1,4 +1,4 @@
-# `itertools` in Python
+# itertools
 
 `itertools` is a powerful Python library that provides a collection of tools for working with iterators and iterable objects. The library is part of the Python standard library, which means that it comes pre-installed with every Python distribution. `itertools` provides a suite of functions that can help you manipulate and iterate over iterable objects in a more efficient and concise manner. In this article, we'll explore some of the most useful functions in `itertools` and give some funny examples to help you understand when to use them.
 
