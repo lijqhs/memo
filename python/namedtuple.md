@@ -14,6 +14,65 @@ The `namedtuple` function is a factory function from the `collections` module in
 
 5. Memory efficiency: `namedtuple` instances are more memory-efficient than regular objects because they are implemented as tuples. This can be beneficial if you need to create many instances of a class-like object and want to minimize the memory footprint of your program.
 
+### Examples
+
+Here are some examples of situations where `namedtuple` can be useful:
+
+1. Defining a data structure: If you need to represent a collection of related data, such as a point in a 2D space, a date or time, or a person's contact information, `namedtuple` can provide a lightweight and convenient way to define a data structure.
+
+```python
+from collections import namedtuple
+
+# Define a Point namedtuple with x and y fields
+Point = namedtuple('Point', ['x', 'y'])
+
+# Create a new Point object
+p = Point(1, 2)
+
+# Access the x and y fields using named attributes
+print(p.x, p.y)  # Output: 1 2
+```
+
+2. Returning multiple values from a function: If a function needs to return multiple values, `namedtuple` can be a cleaner and more readable alternative to using an ordinary tuple.
+
+```python
+from collections import namedtuple
+
+# Define a Result namedtuple with success and message fields
+Result = namedtuple('Result', ['success', 'message'])
+
+def process_data(data):
+    if validate_data(data):
+        return Result(True, "Data is valid.")
+    else:
+        return Result(False, "Data is invalid.")
+        
+result = process_data(my_data)
+
+if result.success:
+    print("Success:", result.message)
+else:
+    print("Error:", result.message)
+```
+
+3. Subclassing: `namedtuple` can be subclassed to add custom methods and additional attributes, while still retaining the lightweight and efficient tuple-like behavior.
+
+```python
+from collections import namedtuple
+
+# Define a Circle namedtuple with x, y, and radius fields
+Circle = namedtuple('Circle', ['x', 'y', 'radius'])
+
+class CirclePlus(Circle):
+    def area(self):
+        return 3.14 * self.radius ** 2
+
+c = CirclePlus(0, 0, 5)
+print(c.area())  # Output: 78.5
+```
+
+Overall, `namedtuple` can be useful in any situation where a simple, lightweight, and readable data structure is needed.
+
 ## When not to use `namedtuple`
 
 However, there are also cases where `namedtuple` might not be appropriate. For example, if you need to add methods or properties to your class-like object, or if you need to customize the behavior of your object beyond what `namedtuple` provides, it may be better to define a regular class instead. Additionally, if you need to modify the fields of your object regularly, you should use a mutable object like a `dict` or a custom class instead of a `namedtuple`.
