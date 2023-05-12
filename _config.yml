@@ -1,5 +1,4 @@
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Memo
 description: for short notes
+logo: https://cdn.jsdelivr.net/gh/lijqhs/cdn@1.5/img/icons/clock.jpg
+theme: jekyll-theme-minimal
