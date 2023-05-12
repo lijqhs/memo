@@ -1,4 +1,6 @@
 title: Memo
 description: for short notes
 logo: /assets/img/logo.jpg
-theme: jekyll-theme-minimal
+remote_theme: "godalming123/minimal"
+plugins:
+- jekyll-remote-theme
