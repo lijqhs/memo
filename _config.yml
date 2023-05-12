@@ -1,7 +1,7 @@
 title: Memo
 description: for short notes
 logo: /assets/img/logo.jpg
-remote_theme: "godalming123/minimal"
+remote_theme: BDHU/minimalist
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
