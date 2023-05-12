@@ -22,7 +22,7 @@ In this example, `squares` is an iterator that generates the squares of the inte
 
 ### 1. `cycle()`
 
-The `cycle()` function creates an iterator that repeats the values in an iterable object indefinitely. Here's an example:
+The `cycle()` function creates an iterator that repeats the values in an iterable object indefinitely.
 
 ```python
 from itertools import cycle
@@ -45,7 +45,7 @@ green
 
 ### 2. `zip()`
 
-The `zip()` function creates an iterator that aggregates elements from two or more iterable objects. Here's an example:
+The `zip()` function creates an iterator that aggregates elements from two or more iterable objects.
 
 ```python
 names = ['Alice', 'Bob', 'Charlie']
@@ -67,7 +67,7 @@ Note that if the iterables are of different lengths, `zip()` will truncate the i
 
 ### 3. `count()`
 
-The `count()` function creates an iterator that generates a sequence of numbers starting from a specified value. Here's an example:
+The `count()` function creates an iterator that generates a sequence of numbers starting from a specified value.
 
 ```python
 from itertools import count
@@ -91,7 +91,7 @@ This code creates an iterator that generates a sequence of numbers starting from
 
 ### 4. `permutations()`
 
-The `permutations()` function creates an iterator that generates all possible permutations of the elements in an iterable object. Here's an example:
+The `permutations()` function creates an iterator that generates all possible permutations of the elements in an iterable object.
 
 ```python
 from itertools import permutations
@@ -115,7 +115,7 @@ This code creates an iterator that generates all possible permutations of the co
 
 ### 5. `chain()`
 
-The `chain()` function creates an iterator that concatenates the elements from two or more iterable objects. Here's an example:
+The `chain()` function creates an iterator that concatenates the elements from two or more iterable objects.
 
 ```python
 from itertools import chain
@@ -136,6 +136,39 @@ blue
 yellow
 purple
 orange
+```
+
+### 6. `product()`
+
+The `itertools.product()` function returns the Cartesian product of two or more iterables. For example, to generate all possible two-digit numbers using the digits 0 to 9, you can use:
+
+```python
+import itertools
+digits = range(10)
+for x, y in itertools.product(digits, repeat=2):
+   print(x, y)
+```
+
+### 7. `combinations()`
+
+The `itertools.combinations()` function returns all possible combinations of the elements in an iterable. For example, to generate all possible pairs of letters from the list ['a', 'b', 'c'], you can use:
+
+```python
+import itertools
+letters = ['a', 'b', 'c']
+for combo in itertools.combinations(letters, 2):
+   print(''.join(combo))
+```
+
+### 8. `groupby()`
+
+The `itertools.groupby()` function groups consecutive elements in an iterable by a key function. For example, to group all even and odd numbers in a list of integers, you can use:
+
+```python
+import itertools
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+for key, group in itertools.groupby(nums, lambda x: x % 2 == 0):
+   print(key, list(group))
 ```
 
 ## Conclusion
