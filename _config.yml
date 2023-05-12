@@ -3,4 +3,7 @@ description: for short notes
 logo: /assets/img/logo.jpg
 remote_theme: "godalming123/minimal"
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
