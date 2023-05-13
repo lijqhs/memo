@@ -1,2 +1,3 @@
 - [itertools](./itertools.md)
 - [namedtuple](./namedtuple.md)
+- [Monkey patching](./monkey-patching.md)

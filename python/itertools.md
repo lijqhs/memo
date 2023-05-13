@@ -1,4 +1,18 @@
-# itertools
+# itertools <!-- omit in toc -->
+
+- [What are iterators and iterable objects?](#what-are-iterators-and-iterable-objects)
+- [What is itertools?](#what-is-itertools)
+- [Examples of itertools functions](#examples-of-itertools-functions)
+  - [1. `cycle()`](#1-cycle)
+  - [2. `zip()`](#2-zip)
+  - [3. `count()`](#3-count)
+  - [4. `permutations()`](#4-permutations)
+  - [5. `chain()`](#5-chain)
+  - [6. `product()`](#6-product)
+  - [7. `combinations()`](#7-combinations)
+  - [8. `groupby()`](#8-groupby)
+- [Conclusion](#conclusion)
+
 
 `itertools` is a powerful Python library that provides a collection of tools for working with iterators and iterable objects. The library is part of the Python standard library, which means that it comes pre-installed with every Python distribution. `itertools` provides a suite of functions that can help you manipulate and iterate over iterable objects in a more efficient and concise manner. In this article, we'll explore some of the most useful functions in `itertools` and give some funny examples to help you understand when to use them.
 
@@ -174,3 +188,11 @@ for key, group in itertools.groupby(nums, lambda x: x % 2 == 0):
 ## Conclusion
 
 `itertools` is a powerful Python library that provides a variety of functions for working with iterators and iterable objects. The library is part of the Python standard library, making it easy to use and widely available. The examples we've covered in this article are just a small sample of what `itertools` can do. By using `itertools`, you can write more efficient and concise code that is better suited for working with large datasets. So go ahead and experiment with `itertools` - you never know what kind of fun and interesting results you might get!
+
+
+
+<br/>
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>

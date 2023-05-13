@@ -1,4 +1,9 @@
-# namedtuple
+# namedtuple <!-- omit in toc -->
+
+- [When to use `namedtuple`](#when-to-use-namedtuple)
+  - [Examples](#examples)
+- [When not to use `namedtuple`](#when-not-to-use-namedtuple)
+
 
 ## When to use `namedtuple`
 
@@ -129,3 +134,11 @@ class BankAccount:
 This implementation uses a regular class to define the `BankAccount` object. The class has methods to deposit and withdraw funds, and a property to get the current balance of the account. It also has an `add_transaction` method to add new transactions to the account.
 
 Using a class-based implementation like this can make your code more maintainable, flexible, and encapsulated.
+
+
+
+<br/>
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
