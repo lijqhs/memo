@@ -1,5 +1,6 @@
 # Dependency injection <!-- omit in toc -->
 
+- [Introduction](#introduction)
 - [What is Dependency Injection?](#what-is-dependency-injection)
 - [How does Dependency Injection Work?](#how-does-dependency-injection-work)
 - [Why use Dependency Injection?](#why-use-dependency-injection)
@@ -9,6 +10,7 @@
 - [Pitfalls of Dependency Injection](#pitfalls-of-dependency-injection)
 - [Conclusion](#conclusion)
 
+## Introduction
 
 [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) is a design pattern commonly used in software engineering that allows for the separation of concerns and promotes code reusability. It is a technique that enables the creation of loosely coupled code, which can be easily tested, maintained, and extended. 
 
