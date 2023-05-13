@@ -1,4 +1,6 @@
-- [itertools](./itertools.md)
-- [namedtuple](./namedtuple.md)
-- [Monkey patching](./monkey-patching.md)
-- [Dependency injection](./dependency-injection.md)
+# Python
+
+- [itertools](itertools.md)
+- [namedtuple](namedtuple.md)
+- [Monkey patching](monkey-patching.md)
+- [Dependency injection](dependency-injection.md)

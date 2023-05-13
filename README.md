@@ -1,8 +1,3 @@
-# Memos
+# Memo for learning
 
-Python:
-
-- [itertools](/python/itertools.md)
-- [namedtuple](/python/namedtuple.md)
-- [Monkey patching](./python/monkey-patching.md)
-- [Dependency injection](./python/dependency-injection.md)
+This repository is used to keep short notes to organize various technical concepts.
