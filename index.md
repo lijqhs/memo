@@ -3,7 +3,9 @@
 > Mortimer Adler
 
 - [python](./python/readme.md)
-    - [itertools](/python/itertools.md)
-    - [namedtuple](/python/namedtuple.md)
-    - [Monkey patching](./python/monkey-patching.md)
-    - [Dependency injection](./python/dependency-injection.md)
+  - [itertools](/python/itertools.md)
+  - [namedtuple](/python/namedtuple.md)
+  - [Monkey patching](./python/monkey-patching.md)
+  - [Dependency injection](./python/dependency-injection.md)
+- [nginx](./nginx/readme.md)
+  - [Nginx for Websocket](./nginx/nginx-websocket.md)
