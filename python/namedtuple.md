@@ -136,7 +136,6 @@ This implementation uses a regular class to define the `BankAccount` object. The
 Using a class-based implementation like this can make your code more maintainable, flexible, and encapsulated.
 
 
-
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>

@@ -190,7 +190,6 @@ for key, group in itertools.groupby(nums, lambda x: x % 2 == 0):
 `itertools` is a powerful Python library that provides a variety of functions for working with iterators and iterable objects. The library is part of the Python standard library, making it easy to use and widely available. The examples we've covered in this article are just a small sample of what `itertools` can do. By using `itertools`, you can write more efficient and concise code that is better suited for working with large datasets. So go ahead and experiment with `itertools` - you never know what kind of fun and interesting results you might get!
 
 
-
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>

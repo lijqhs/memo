@@ -9,7 +9,6 @@
   - [Example 3: Mocking a function for testing](#example-3-mocking-a-function-for-testing)
 - [When Not to Use Monkey Patching](#when-not-to-use-monkey-patching)
 
-
 In Python programming, monkey patching refers to the practice of modifying or extending the behavior of a module or object at runtime. This technique allows developers to change the behavior of existing code without modifying the original source code. While monkey patching can be a powerful tool, it can also be dangerous if used improperly. 
 
 ## What is Monkey Patching?
