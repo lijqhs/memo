@@ -1,5 +1,7 @@
 # REST API
 
+> An API, or application programming interface, is a set of rules that define how applications or devices can connect to and communicate with each other. A REST API is an API that conforms to the design principles of the REST, or representational state transfer architectural style.
+
 REST (Representational State Transfer) is an architectural style for building web services that has become widely adopted in recent years. A RESTful API is a web service that adheres to the principles of the REST architecture and provides a standard way for clients to interact with server-side resources.
 
 At its core, a RESTful API is a collection of resources that are identified by a unique URI. Each resource can be represented in multiple formats, such as JSON or XML, and can be manipulated using a set of standard HTTP methods, such as GET, POST, PUT, DELETE, and PATCH. These methods correspond to the basic CRUD (Create, Read, Update, Delete) operations that are typically performed on resources.
@@ -24,4 +26,6 @@ These HTTP methods correspond to the basic CRUD (Create, Read, Update, Delete) o
 
 Note that not all resources will support all of these methods, and some resources may support additional methods that are specific to their functionality. It is also important to ensure that the use of these methods is consistent with the semantics of the resources being manipulated.
 
-For API Guidelines, refer to [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md).
+References:
+- [What is a REST API?](https://www.ibm.com/topics/rest-apis)
+- [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md).
