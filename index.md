@@ -9,6 +9,7 @@
   - [dependency injection](./python/dependency-injection.md)
   - [duck typing](./python/duck-typing.md)
   - [overriding vs. overloading](./python/overriding-vs-overloading.md)
+  - [arguments passing method](./python/arguments.md)
 - [nginx](./nginx/readme.md)
   - [nginx for websocket](./nginx/nginx-websocket.md)
 - microservice
