@@ -5,11 +5,12 @@
 - [python](./python/readme.md)
   - [itertools](/python/itertools.md)
   - [namedtuple](/python/namedtuple.md)
-  - [Monkey patching](./python/monkey-patching.md)
-  - [Dependency injection](./python/dependency-injection.md)
+  - [monkey patching](./python/monkey-patching.md)
+  - [dependency injection](./python/dependency-injection.md)
+  - [duck typing](./python/duck-typing.md)
 - [nginx](./nginx/readme.md)
-  - [Nginx for Websocket](./nginx/nginx-websocket.md)
-- Microservice
-  - [Microservice, SOA, Serverless and Monolith](./microservices/microservices-soa-serverless-monolith.md)
-- REST
-  - [REST API](./rest/rest-api.md)
+  - [nginx for websocket](./nginx/nginx-websocket.md)
+- microservice
+  - [microservice, soa, serverless and monolith](./microservices/microservices-soa-serverless-monolith.md)
+- rest
+  - [rest api](./rest/rest-api.md)
