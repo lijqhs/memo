@@ -16,8 +16,6 @@ Here's a brief overview of the different argument passing methods in Python:
 
 ## Example
 
-Sure! Here's an example function that demonstrates all the different argument passing methods in Python:
-
 ```python
 def process_data(name, *args, age=30, **kwargs):
     print("Name:", name)
