@@ -5,3 +5,4 @@
 - [monkey patching](monkey-patching.md)
 - [dependency injection](dependency-injection.md)
 - [duck typing](duck-typing.md)
+- [overriding vs. overloading](overriding-vs-overloading.md)
