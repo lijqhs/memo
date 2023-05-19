@@ -73,7 +73,7 @@ In Python, the [slash (`/`)](https://docs.python.org/3/faq/programming.html#what
 
 Here's an example of using the slash syntax in a Python function definition:
 
-```
+```python
 def my_function(a, b, /, c, d):
     print("a =", a)
     print("b =", b)
@@ -86,6 +86,16 @@ my_function(1, 2, 3, 4)
 In this example, we define a function `my_function()` that takes four parameters: `a`, `b`, `c`, and `d`. The slash syntax is used to indicate that the first two parameters, `a` and `b`, are positional-only, while the last two parameters, `c` and `d`, can be passed as either positional or keyword arguments.
 
 When we call the `my_function()` function with the arguments `1`, `2`, `3`, and `4`, the first two arguments are passed as positional-only arguments and are matched to the `a` and `b` parameters, respectively. The last two arguments are passed as positional arguments and are matched to the `c` and `d` parameters, respectively.
+
+```python
+my_function(1, b=2, c=3, d=4)
+# TypeError: my_function() got some positional-only arguments passed as keyword arguments: 'b'
+my_function(1, 2, d=3, c=4)
+# a = 1
+# b = 2
+# c = 4
+# d = 3
+```
 
 The use of the slash syntax is mostly optional and depends on the specific requirements of the function. It can be useful in cases where you want to restrict certain parameters to be passed only as positional arguments, or when you want to make the function's interface more clear and self-documenting.
 
