@@ -1,6 +1,4 @@
-# singleton
-
-## decorator method
+# singleton with decorator
 
 In Python, a singleton is a design pattern that restricts the instantiation of a class to a single object. A singleton class ensures that only one instance of the class is created and provides a global point of access to that instance.
 
