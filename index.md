@@ -10,7 +10,8 @@
   - [duck typing](./python/duck-typing.md)
   - [overriding vs. overloading](./python/overriding-vs-overloading.md)
   - [arguments passing method](./python/arguments.md)
-  - [decorator](decorator-singleton.md)
+  - [decorator](./python/decorator-singleton.md)
+  - [array](./python/array.md)
 - [nginx](./nginx/readme.md)
   - [nginx for websocket](./nginx/nginx-websocket.md)
 - microservice
