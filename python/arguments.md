@@ -99,4 +99,23 @@ my_function(1, 2, d=3, c=4)
 
 The use of the slash syntax is mostly optional and depends on the specific requirements of the function. It can be useful in cases where you want to restrict certain parameters to be passed only as positional arguments, or when you want to make the function's interface more clear and self-documenting.
 
-It's important to note that the slash syntax is only available in Python 3.8 and later versions. In earlier versions of Python, positional-only parameters can be achieved by using a single asterisk (`*`) to mark the end of positional-only parameters in the function definition.
+It's important to note that the slash syntax is only available in Python 3.8 and later versions. 
+
+## asterisk (`*`)
+
+Use asterisk (`*`) to specify keyword-only arguments.
+
+```python
+def my_function2(a, /, b, *, c, d):
+    print("a =", a)
+    print("b =", b)
+    print("c =", c)
+    print("d =", d)
+
+my_function2(1, 2, c=3, d=4)
+my_function2(1, b=2, c=3, d=4)
+my_function2(a=1, b=2, c=3, d=4)
+# TypeError: my_function2() got some positional-only arguments passed as keyword arguments: 'a'
+my_function2(1, 2, 3, 4)
+# TypeError: my_function3() takes 2 positional arguments but 4 were given
+```
