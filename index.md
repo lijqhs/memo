@@ -12,6 +12,8 @@
   - [arguments passing method](./python/arguments.md)
   - [decorator](./python/decorator-singleton.md)
   - [array](./python/array.md)
+  - [comprehensions](./python/comprehensions.md)
+  - [generator](./python/generator.md)
 - [nginx](./nginx/readme.md)
   - [nginx for websocket](./nginx/nginx-websocket.md)
 - microservice

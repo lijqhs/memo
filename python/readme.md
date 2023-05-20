@@ -9,3 +9,5 @@
 - [arguments passing method](arguments.md)
 - [decorator](decorator-singleton.md)
 - [array](array.md)
+- [comprehensions](comprehensions.md)
+- [generator](generator.md)
