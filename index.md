@@ -14,6 +14,7 @@
   - [array](./python/array.md)
   - [comprehensions](./python/comprehensions.md)
   - [generator](./python/generator.md)
+  - [name-mangling](./python/name-mangling.md)
 - [nginx](./nginx/readme.md)
   - [nginx for websocket](./nginx/nginx-websocket.md)
 - microservice
