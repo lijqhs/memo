@@ -11,3 +11,4 @@
 - [array](array.md)
 - [comprehensions](comprehensions.md)
 - [generator](generator.md)
+- [name-mangling](name-mangling.md)
