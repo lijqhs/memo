@@ -3,8 +3,8 @@
 - [1. What is the Prototype Design Pattern?](#1-what-is-the-prototype-design-pattern)
 - [2. When to use the Prototype Design Pattern?](#2-when-to-use-the-prototype-design-pattern)
 - [3. Examples of the Prototype Design Pattern](#3-examples-of-the-prototype-design-pattern)
-  - [An example of the Prototype Design Pattern in Java:](#an-example-of-the-prototype-design-pattern-in-java)
-  - [An example of the Prototype Design Pattern in Python:](#an-example-of-the-prototype-design-pattern-in-python)
+  - [Java example](#java-example)
+  - [Python example](#python-example)
 - [4. Pros and Cons of the Prototype Design Pattern](#4-pros-and-cons-of-the-prototype-design-pattern)
 - [5. Related Design Patterns](#5-related-design-patterns)
 - [Conclusion](#conclusion)
@@ -28,7 +28,7 @@ The Prototype Design Pattern can be used in the following scenarios:
 ## 3. Examples of the Prototype Design Pattern
 Let'sconsider an example to understand the Prototype Design Pattern better. Suppose we have a prototype object, Car, which has various attributes such as color, model, engine type, etc. We want to create new cars with similar attributes as the prototype Car. In this case, we can use the Prototype Design Pattern to create new cars by cloning the prototype Car.
 
-### An example of the Prototype Design Pattern in Java:
+### Java example
 
 ```java
 public abstract class Car implements Cloneable {
@@ -91,7 +91,7 @@ public class CarFactory {
 
 In the above code, we have a Car abstract class that implements the Cloneable interface. We have two concrete classes, Hatchback and Sedan, that extend the Car class and implement the drive() method. We also have a CarFactory class that has a HashMap of Car objects and a getCar() method that returns a cloned Car object based on the carType parameter passed.
 
-### An example of the Prototype Design Pattern in Python:
+### Python example
 
 ```python
 import copy
