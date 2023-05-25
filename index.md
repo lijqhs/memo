@@ -15,7 +15,7 @@
   - [comprehensions](./python/comprehensions.md)
   - [generator](./python/generator.md)
   - [name-mangling](./python/name-mangling.md)
-- oop(./oop/readme.md)
+- [oop](./oop/readme.md)
   - [SOLID Principles](./oop/solid.md)
   - [Prototype](./oop/prototype.md)
 - [nginx](./nginx/readme.md)
