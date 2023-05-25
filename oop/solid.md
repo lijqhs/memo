@@ -26,6 +26,7 @@ Subtypes should be substitutable for their base types. This means that if a clas
   - Invariants of a superclass must be preserved.
   - A subclass shouldn’t change values of private fields of the superclass.
 
+
 4. Interface Segregation Principle (ISP):
 Clients should not be forced to depend on interfaces they do not use. This means that interfaces should be designed in such a way that clients only need to depend on the methods they actually use. This principle helps to ensure that the code is modular and that changes to one part of the system do not affect other parts of the system unnecessarily.
 
