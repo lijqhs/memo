@@ -17,7 +17,9 @@
   - [name-mangling](./python/name-mangling.md)
 - [oop](./oop/readme.md)
   - [SOLID Principles](./oop/solid.md)
+  - [drawbacks of inheritance](./oop/drawbacks-of-inheritance.md)
   - [Prototype](./oop/prototype.md)
+  - [Bridge](./oop/bridge.md)
 - [nginx](./nginx/readme.md)
   - [nginx for websocket](./nginx/nginx-websocket.md)
 - microservice
