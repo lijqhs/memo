@@ -7,11 +7,11 @@
 ## Design Patterns
 
 - Creational patterns
-  - Factory Method
-  - Abstract Factory
-  - Builder
-  - [Prototype](prototype.md)
-  - Singleton
+  - [Factory Method](factory-method.md): creates objects without specifying the exact class to create.
+  - Abstract Factory: groups object factories that have a common theme.
+  - Builder: constructs complex objects by separating construction and representation.
+  - [Prototype](prototype.md): creates objects by cloning an existing object.
+  - Singleton: restricts object creation for a class to only one instance.
 - Structural patterns
   - Adapter
   - [Bridge](bridge.md)
