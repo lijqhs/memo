@@ -8,6 +8,8 @@ The Factory Method pattern is useful when you have a superclass that doesn't kno
 
 ## Example
 
+I apologize for the confusion in my previous response. You are correct that my previous example did not demonstrate the Factory Method pattern correctly. Here is a corrected example:
+
 ```python
 from abc import ABC, abstractmethod
 
@@ -24,23 +26,39 @@ class Cat(Animal):
     def speak(self):
         return "Meow!"
 
-class AnimalFactory:
-    def get_animal(self, animal_type):
-        if animal_type == "dog":
-            return Dog()
-        elif animal_type == "cat":
-            return Cat()
-        else:
-            raise ValueError(f"Unknown animal type '{animal_type}'")
+class AnimalCreator(ABC):
+    @abstractmethod
+    def create_animal(self):
+        pass
+
+    def do_something(self):
+        animal = self.create_animal()
+        animal.speak()
+
+class DogCreator(AnimalCreator):
+    def create_animal(self):
+        return Dog()
+
+class CatCreator(AnimalCreator):
+    def create_animal(self):
+        return Cat()
 
 # Usage
-factory = AnimalFactory()
-dog = factory.get_animal("dog")
-cat = factory.get_animal("cat")
+dog_creator = DogCreator()
+cat_creator = CatCreator()
 
-print(dog.speak())  # This will print "Woof!"
-print(cat.speak())  # This will print "Meow!"
+dog_creator.do_something()
+cat_creator.do_something()
+
+print(dog_creator.do_something())  # This will print "Woof!"
+print(cat_creator.do_something())  # This will print "Meow!"
 ```
+
+In this example, we have an abstract base class `Animal` that defines a method `speak()`. We also have two concrete classes `Dog` and `Cat` that implement the `speak()` method in their own way.
+
+We also have an abstract class `AnimalCreator` that defines an factory method `create_animal()` and its business logic method `do_something` for its main purpose. The concrete `DogCreator` and `CatCreator` classes implement this method to create `Dog` and `Cat` objects, respectively.
+
+>Note, despite its name, animal creation is not the primary responsibility of the creator. Usually, the creator class already has some core **business logic** related to products. The factory method helps to decouple this logic from the concrete product classes. Here is an analogy: a large software development company can have a training department for programmers. However, the primary function of the company as a whole is still writing code, not producing programmers.
 
 ## Pros and Cons
 
@@ -63,3 +81,4 @@ Cons:
 - https://en.wikipedia.org/wiki/Factory_method_pattern
 - https://refactoring.guru/design-patterns/factory-method
 - https://refactoring.guru/design-patterns/factory-method/python/example
+- https://stackoverflow.com/a/5740020
