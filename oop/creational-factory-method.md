@@ -6,6 +6,42 @@ The Factory Method design pattern is a creational design pattern that provides a
 
 The Factory Method pattern is useful when you have a superclass that doesn't know what type of objects it needs to create, but it knows the type of objects it wants to use. The factory method can be used to create these objects without the superclass having to know exactly what type of object it needs to create.
 
+## Example
+
+```python
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def speak(self):
+        pass
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+class AnimalFactory:
+    def get_animal(self, animal_type):
+        if animal_type == "dog":
+            return Dog()
+        elif animal_type == "cat":
+            return Cat()
+        else:
+            raise ValueError(f"Unknown animal type '{animal_type}'")
+
+# Usage
+factory = AnimalFactory()
+dog = factory.get_animal("dog")
+cat = factory.get_animal("cat")
+
+print(dog.speak())  # This will print "Woof!"
+print(cat.speak())  # This will print "Meow!"
+```
+
 ## Pros and Cons
 
 Pros:
