@@ -1,6 +1,6 @@
 # Bridge
 
-The Bridge Design Pattern is a structural design pattern that decouples an abstraction from its implementation so that the two can vary independently. In Python, this pattern can be implemented using classes and interfaces.
+The Bridge pattern is a structural design pattern that decouples an abstraction from its implementation, allowing them to vary independently. It involves creating two separate hierarchies, one for the abstraction and one for the implementation, and using composition to link them together. This pattern is useful when you need to separate the interface of an object from its implementation, or when you need to support multiple implementations of an object.
 
 Here's an example implementation of the Bridge Design Pattern in Python:
 
