@@ -18,8 +18,7 @@
 - [oop](./oop/readme.md)
   - [SOLID Principles](./oop/solid.md)
   - [drawbacks of inheritance](./oop/drawbacks-of-inheritance.md)
-  - [Prototype](./oop/prototype.md)
-  - [Bridge](./oop/bridge.md)
+  - [Design Patterns](./oop/readme.md#design-patterns)
 - [nginx](./nginx/readme.md)
   - [nginx for websocket](./nginx/nginx-websocket.md)
 - microservice
