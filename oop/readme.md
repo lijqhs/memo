@@ -21,13 +21,18 @@
   - [Flyweight](structural-flyweight.md): Use sharing to support large numbers of similar objects efficiently.
   - [Proxy](structural-proxy.md): Provide a surrogate or placeholder for another object to control access to it.
 - Behavioral patterns
-  - Chain of Responsibility
-  - Command
-  - Iterator
-  - Mediator
-  - Memento
-  - Observer
-  - State
-  - Strategy
-  - Template Method
-  - Visitor
+  - [Chain of Responsibility](behavioral-chain-of-responsibility.md): Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
+  - [Command](behavioral-command.md): Encapsulate a request as an object, thereby allowing for the parameterization of clients with different requests, and the queuing or logging of requests. It also allows for the support of undoable operations.
+  - [Iterator](behavioral-iterator.md): Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+  - [Mediator](behavioral-mediator.md): Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently.
+  - [Memento](behavioral-memento.md): Without violating encapsulation, capture and externalize an object's internal state allowing the object to be restored to this state later.
+  - [Observer](behavioral-observer.md): Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.
+  - [State](behavioral-state.md): Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+  - [Strategy](behavioral-strategy.md): Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+  - [Template Method](behavioral-template-method.md): Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+  - [Visitor](behavioral-visitor.md): Represent an operation to be performed on instances of a set of classes. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.
+
+### References
+
+- https://en.wikipedia.org/wiki/Software_design_pattern
+- https://refactoring.guru/
