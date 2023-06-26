@@ -17,7 +17,7 @@
   - [Bridge](structural-bridge.md): Decouple an abstraction from its implementation allowing the two to vary independently.
   - [Composite](structural-composite.md): Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
   - [Decorator](structural-decorator.md): Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality.
-  - Facade
+  - [Facade](structural-facade.md): Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
   - Flyweight
   - Proxy
 - Behavioral patterns
